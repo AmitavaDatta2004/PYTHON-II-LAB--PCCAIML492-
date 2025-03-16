@@ -7,3 +7,6 @@ data = pd.read_csv('d:\\PYTHON\\PYTHON-II-LAB--PCCAIML492-\\Assignment_3\\iris.c
 data['total_value'] = data[['sepal.length', 'sepal.width', 'petal.length', 'petal.width']].sum(axis=1)
 print("\nData Frame with Total Value Column:")
 print(data)
+
+# Save the modified DataFrame back to the CSV file
+data.to_csv('d:\\PYTHON\\PYTHON-II-LAB--PCCAIML492-\\Assignment_3\\iris.csv', index=False)
