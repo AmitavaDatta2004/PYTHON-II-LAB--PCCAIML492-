@@ -1,0 +1,5 @@
+1. line plot or normal plot
+2. hist (matplotlib)
+3. Scatterplot (seaborn)
+4. Pairplot (seaborn)
+5. 
